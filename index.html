@@ -2,17 +2,88 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>トップページ</title>
-<link href="base2.css" rel="stylesheet" type="text/css">
+<title>div_sample</title>
+<style type="text/css">
+#one {
+    background-color: #DE696B;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#two {
+    background-color: #FFFF00;
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+#three {
+    color: #FF3F42;
+    border: thick solid #0FFF00;
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+#bigbox {
+    width: 500px;
+    height: 100px;
+}
+.wrap {
+    background-color: #0FFF00;
+	display: flex;
+}
+.wrap .cakes {
+    width: 50%;
+    float: left;
+}
+.wrap .cakes {
+    width: 50%;
+    float: right;
+}
+</style>
 </head>
 
 <body>
-<h1>NSの講義</h1>
-<p>担当　中村直人</p>
-<ul>
-  <li><a href="math.html">情報数学基礎</a></li>
-  <li><a href="CG.html">コンピュータグラフィックス</a></li>
-  <li><a href="visual.html">ビジュアルコンテンツデザイン</a></li>
-</ul>
+<div id="bigbox">
+	
+<div id="one"> 
+  <p>ここは最初のDiv(1)</p>
+  <p>ここは最初のDiv(2)</p>
+</div>
+<div id="two">
+  <p>ここは二つ目のDiv(1)</p>
+  <p>ここは二つ目のDiv(2)</p>
+</div>
+<div id="three">
+  <p>ここは三つ目のDiv(1)</p>
+  <p>ここは三つ目のDiv(2)</p>
+</div>
+	
+</div>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	
+	<img src="shop.jpg" width="100%"  alt=""/>
+<div class="wrap">
+  <div class="cakes">
+	<h2>ショートケーキ</h2>
+	 <img src="cake01.jpg" width="100%" >
+	 <p>イチゴがのった一番人気のスポンジケーキです。大人から子供まで、年中愛されるケーキです。</p>
+  </div>
+  <div class="cakes">
+	<h2>モンブラン</h2>
+	  <img src="cake02.jpg" width="100%" alt=""/>
+	  <p>栗をふんだんに使ったケーキです。様々な形状があります。</p>
+	</div>
+</div>
 </body>
 </html>
